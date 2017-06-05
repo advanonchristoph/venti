@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    password: christoph
+    username: christoph
+    jdbc-url: jdbc:postgresql://localhost:5432/venti
+
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+        type: true
+        hbm2ddl.auto: create
+        dialect: org.hibernate.dialect.ProgressDialect
